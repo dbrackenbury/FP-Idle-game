@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="heading_div">
+            <div align-items:left;><p class="ui-text">Population: <span id="population-display"></span> / 
+                <span id="population-max-display"></span>( <span id="population-idle-display"></span> )</p></div>
+            <div align-items:center;><p class="ui-text" >Day <span id="day-number-display"></span></p></div>
+            <div align-items:right;>
+                <p class="ui-text">
+                    <span>
+                        <button>Save</button>
+                        <button>Load</button>
+                    </span>
+                </p>
+            </div>
+        </div>
+        <section class="layout">
+            <!-- LEFT BOX FOR BUILDINGS -->
+            <div id="builder-section" class="section">
+                
+            </div>
+            <!-- MIDDLE BOX FOR INVENTORY -->
+            <div id="inventory-section" class="section">
+                <h1>Inventory</h1>
+                <div class="section-container">
+                    <div class="section-container-box">
+
+                        <!--WOOD RESOURCE-->
+                        <div id=wood-label>Wood:
+                            <span class="number-label" id="wood-display"></span>/ <span id="wood-max-display"></span>
+                            ( <span id="wood-worker-display"></span> / <span id="wood-max-worker-display"></span> )
+                            <button class="plus-button">+</button>
+                            <button class="negative-button">-</button>
+                           
+                        </div>
+                    </div>
+
+                    <div class="section-container-box">
+                        <div id=wood-label>Stone:
+                            <span class="number-label" id="stone-display"></span>/ <span id="stone-max-display"></span>
+                            ( <span id="stone-worker-display"></span> / <span id="stone-max-worker-display"></span> )
+                            <button class="plus-button">+</button>
+                            <button class="negative-button">-</button>
+                        </div>
+                    </div>
+
+
+                    <div class="section-container-box">
+                        <div id=wood-label>Food:
+                            <span class="number-label" id="food-display"></span>/ <span id="food-max-display"></span>
+                            ( <span id="food-worker-display"></span> / <span id="food-max-worker-display"></span> )
+                            <button class="plus-button">+</button>
+                            <button class="negative-button">-</button>
+                        </div>
+                    </div>
+                    
+    
+                
+                </div>
+            </div>
+
+            <div class="section"></div>
+        </section>
+    <script src="js/Core/global_Variables.js"></script>
+    <script src="js/Core/display_Functions.js"></script>
+    <script src="js/Core/clock_Setup.js"></script>
+    
+    </body>
+</html>
