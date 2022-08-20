@@ -1,0 +1,50 @@
+
+let POPULATION;
+let POPULATION_MAX;
+let POPULATION_WORKING;
+let POPULATION_IDLE;
+let DAY;
+
+let LIVE_WOOD;
+let MAX_WOOD;
+let WORKING_WOOD;
+let MAX_WORKING_WOOD;
+
+let LIVE_STONE;
+let MAX_STONE;
+let WORKING_STONE;
+let MAX_WORKING_STONE;
+
+let LIVE_FOOD;
+let MAX_FOOD;
+let WORKING_FOOD;
+let MAX_WORKING_FOOD;
+
+function gVarSetup() {
+
+    POPULATION = 10;
+    POPULATION_MAX = 10;
+    POPULATION_IDLE = 10;
+    DAY = 1;
+
+    LIVE_WOOD = 0;
+    MAX_WOOD = 250;
+    WORKING_WOOD = 0;
+    MAX_WORKING_WOOD = 5;
+
+    LIVE_STONE = 0;
+    MAX_STONE = 250;
+    WORKING_STONE = 0;
+    MAX_WORKING_STONE = 5;
+
+    LIVE_FOOD = 0;
+    MAX_FOOD = 250;
+    WORKING_FOOD = 0;
+    MAX_WORKING_FOOD = 5;
+}
+
+
+//** 
+
+
+//
